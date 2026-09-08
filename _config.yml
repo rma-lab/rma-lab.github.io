@@ -1,0 +1,18 @@
+title: rma-lab
+description: >-
+  研究支援（RMA: Research Management and Administration）の実務で使えるオープンソースツールを、
+  ブラウザでそのまま使える形で公開しています。科研費 学術地図（KAKEN-ATLAS）、科研費取得履歴（kaken-history）、
+  SPReAD 申請書類チェッカー。Open-source, browser-based tools for research management and administration (URA) in Japan.
+url: "https://rma-lab.github.io"
+baseurl: ""
+lang: ja
+
+plugins:
+  - jekyll-seo-tag
+  - jekyll-sitemap
+
+exclude:
+  - Gemfile
+  - Gemfile.lock
+  - README.md
+  - CLAUDE.md

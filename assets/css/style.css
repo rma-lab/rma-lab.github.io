@@ -1,0 +1,39 @@
+* { margin: 0; padding: 0; box-sizing: border-box; }
+
+body {
+  font-family: 'Courier New', Arial, sans-serif;
+  color: #434343;
+  background-color: #fff;
+  line-height: 1.6;
+}
+
+.site-content {
+  padding: 32px 48px 60px;
+  max-width: 720px;
+  font-family: 'Courier New', Arial, sans-serif;
+  font-size: 11pt;
+}
+
+.site-content h1 {
+  font-family: 'Noto Sans JP', 'Noto Sans', sans-serif;
+  color: #434343;
+  font-size: 13pt;
+  font-weight: 400;
+  margin-bottom: 12px;
+}
+
+.site-content p { margin-bottom: 16px; }
+
+.site-content ul { list-style: none; padding-left: 0; margin-bottom: 8px; }
+.site-content ul li { margin-bottom: 20px; }
+.tools li a:first-child { font-family: 'Noto Sans JP', 'Noto Sans', sans-serif; }
+
+.site-content a { color: #006580; text-decoration: none; }
+.site-content a:hover { text-decoration: underline; }
+
+.note { margin-top: 32px; color: #888; }
+.note a { color: #888; }
+
+@media only screen and (max-width: 767px) {
+  .site-content { padding: 24px; }
+}
