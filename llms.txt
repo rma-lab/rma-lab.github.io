@@ -1,0 +1,16 @@
+# rma-lab — 研究支援（RMA）のツール
+
+> 研究支援（Research Management and Administration）の実務向けに、ブラウザでそのまま使えるオープンソースツールを公開している個人の取り組み。AI を活用した研究支援（AI4RA）の一環。特定の機関の公式プロジェクトではない。
+> Open-source, browser-based tools for research management and administration (URA) in Japan, focused on KAKENHI (JSPS Grants-in-Aid) data.
+
+サイト: https://rma-lab.github.io/
+GitHub: https://github.com/rma-lab
+
+## ツール / Tools
+- 科研費 学術地図 KAKEN-ATLAS: https://rma-lab.github.io/kaken-atlas/ — 科研費採択課題 206,078 件（2019–2025 年度開始）を研究概要の意味の近さで並べたインタラクティブ地図（2D/3D/球面）。詳細: https://rma-lab.github.io/kaken-atlas/llms.txt
+- 科研費取得履歴 kaken-history: https://rma-lab.github.io/kaken-history/ — KAKEN の研究者 JSON から取得履歴ガントチャートと「大型科研費までの年数」レポートを PDF 生成。ブラウザ内処理、データは外部送信しない。
+- SPReAD 申請書類チェッカー: https://takayuki1997.github.io/SPReAD-checker/ — SPReAD 公募の申請書類（Excel・PDF）を文科省配布の公式チェックプログラムでブラウザ上で検査。
+
+## 方針 / Policy
+- 取り扱いに注意が必要なデータ（氏名・申請書類など）はブラウザ内で処理し、外部に送信しない。
+- コードは MIT License。科研費データに由来する成果物は KAKEN（国立情報学研究所）の利用規程に従う。
