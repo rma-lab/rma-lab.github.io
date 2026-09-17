@@ -1,4 +1,4 @@
-# rma-lab — 研究支援（RMA）のツール
+# RMA Lab — 研究支援（RMA）のツール
 
 > 研究支援（Research Management and Administration）の実務向けに、ブラウザでそのまま使えるオープンソースツールを公開している個人の取り組み。AI を活用した研究支援（AI4RA）の一環。特定の機関の公式プロジェクトではない。
 > Open-source, browser-based tools for research management and administration (URA) in Japan, focused on KAKENHI (JSPS Grants-in-Aid) data.
